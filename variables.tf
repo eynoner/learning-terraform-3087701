@@ -22,8 +22,8 @@ variable "instance_type" {
       name           = string
       network_prefix = string
     })
-    default {
-      name = "dev"
+    default = {
+      name           = "dev"
       network_prefix = "10.0"
     }
   }
